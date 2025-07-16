@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+header .logo {
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Layout */
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #17a589;
+}
+
+/* Forms */
+form input,
+form select,
+form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Products Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.product-card {
+  text-align: center;
+  max-width: 200px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Delivery Agents */
+.upload-section {
+  background-color: #e3f2fd;
+}
+
+.delivery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.agent-card {
+  text-align: center;
+  max-width: 220px;
+}
+
+.agent-card img {
+  border-radius: 12px;
+}
+
+/* CEO Section */
+.ceo-img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonial-card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.testimonial-card img,
+.testimonial-card video {
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* Social Icons */
+.social-icons img {
+  margin: 0 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  padding: 4px;
+  background: white;
+}
